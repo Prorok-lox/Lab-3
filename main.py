@@ -32,7 +32,6 @@ def animate_bg():
     label_bg.image = next_bg
     window.after(3000, animate_bg)
 
-
 window = tk.Tk()
 window.title("Forza Game Key")
 window.geometry('500x300')
@@ -71,4 +70,3 @@ bg_img_animation = cycle([ImageTk.PhotoImage(Image.open(f'Forza_animation/frame{
 animate_bg()
 
 window.mainloop()
-
