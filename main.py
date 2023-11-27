@@ -22,7 +22,7 @@ def generate_key_action():
     label_result.config(text=generated_key)
 
 def play_music():
-    pygame.mixer.music.load("8bit_music.mp3")
+    pygame.mixer.music.load("music.mp3")
     pygame.mixer.music.play(-1)
 
 def animate_bg():
